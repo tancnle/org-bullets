@@ -1,4 +1,4 @@
-;;; org-bullets.el --- Show bullets in org-mode as UTF-8 characters
+;;; org-bullets.el --- Show bullets in org-mode as UTF-8 characters -*- lexical-binding: t; -*-
 ;;; Version: 0.2.4
 ;;; Author: sabof
 ;;; URL: https://github.com/sabof/org-bullets
@@ -27,7 +27,7 @@
 
 ;;; Code:
 
-(eval-when-compile (require 'cl))
+(eval-when-compile (require 'cl-lib))
 
 (defgroup org-bullets nil
   "Display bullets as UTF-8 characters"
